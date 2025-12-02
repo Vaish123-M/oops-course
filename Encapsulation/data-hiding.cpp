@@ -1,3 +1,8 @@
+//What happened here?
+//marks is hidden using private.
+//You cannot access it directly.
+//You can only access it using public functions (setters/getters)
+
 #include <iostream>
 using namespace std;
 
