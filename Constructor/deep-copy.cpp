@@ -1,3 +1,10 @@
+//A deep copy creates a separate memory block for the new object.
+//Even if the class has pointers, the data is duplicated, not shared.
+//Each object has its own copy of data, completely independent.
+//Advantage
+//Changing one object does not affect the other.
+
+
 #include <iostream>
 using namespace std;
 

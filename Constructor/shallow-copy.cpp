@@ -1,3 +1,8 @@
+//Definition:- A shallow copy copies the values of data members, but if the class has pointers, it copies only the address, not the actual data.
+//Both objects point to the same memory location.
+//Problem
+//If one object changes the value at that pointer, the other object also changes.
+
 #include <iostream>
 using namespace std;
 
